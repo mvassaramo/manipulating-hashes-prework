@@ -65,7 +65,9 @@ hash = {first: "first value!", second: "second value!"}
 hash[:third] = "third value!"
 
 puts hash
-#  => {first: "first value!", second: "second value!", third: "third value!"}
+#  => {first: "first value!", second: "second value!", third: "third value!"}Go back over JS, read book, Codewars
+Scheduled: 1 Jul 2018, 07:30 to 09:15
+
 ```
 
 In a nested hash, we can add new key/value pairs in a similar way. We need to first access the level of the hash to which we want to add a key value pair, and then we can create a new key value on the second level using the same notation. Since we want the `"Jon Snow"` key to include a new key/value pair of his address, the implementation should look like this: 
